@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, p {
 .parallaxHeader {
     /* The image used */
     background-image: url(../img/home.jpg);
-    background-color: rgba(8, 30, 30, 0.8);
+    background-color: rgba(250, 255, 210, 0.8);
     
     /* Set a specific height */
     min-height: 600px; 
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, p {
   }
   .darkBackground {
     /* The color used */
-    background-color: rgba(0, 138, 97, 0.8);
+    background-color: rgba(8, 30, 30, 0.8);
     
     /* Set a specific height */
     min-height: 600px; 
