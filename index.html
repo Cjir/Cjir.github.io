@@ -6,9 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+
+    <!-- Bootstrap CDN CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -57,23 +58,19 @@
     <!-- About Me Container -->
     <div class="lightBackground">
         <div id="about">
-            <div class="row" style="margin: 0 200px 0 200px;">
+            <div class="row" style="margin: 0 300px 0 300px;">
                 <div class="col-4">
+                    <img src="img/profile.jpg" alt="profile image">
+                </div>
+
+                <div class="col-6 text-left">
                     <h4>About Me</h4>
                     <p> I am creator and a developer. I recently completed my BFA in Graphic Design and Completed my
                         Front End Developer Bootcamp.</p>
-
                 </div>
                 <div class="col-2"></div>
-                <div class="col-6">
-                    <div class="row">
-                        <div class="col-4 mt-3 ">
-                            <img src="img/profile.jpg" style="height: 300px;" alt="profile image">
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="row" style="margin: 0 200px 0 200px;">
+            <div class="row" style="margin: 0 300px 0 300px;">
                 <div class="col">
                     <h4>My Goal</h4>
                     <p>I want to learn the ins and outs of mobile responsive development. As a designer, I
@@ -97,7 +94,8 @@
                         adaptable to any device. Cleanly written and well formatted websites or web
                         applications with a mobile first design.</p>
                     <h5 class="m-3">Design Forward</h5>
-                    <p>Having a design understanding, I can help the design process of a website or take wireframes and covert them into webpages, with content optimized for the intended device.</p>
+                    <p>Having a design understanding, I can help the design process of a website or take wireframes and
+                        covert them into webpages, with content optimized for the intended device.</p>
                 </div>
                 <div class="col-4">
                     <h4 class="text-center">Skills</h4>
@@ -136,70 +134,67 @@
     <!-- Portfolio Container -->
     <div class="parallaxShine">
         <div id="work">
-            <div class="row">
-                <div class="col-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="container">
+                            <h4>Projects</h4>
+                            <div class="row mt-3">
+                                <div class="col-3">
+                                    <img src="img/CreatorHubPage.jpg" class="d-block" alt="">
+                                    <a href="https://cjir.github.io/creatorhub/">
+                                    <h5>CreatorHub</h5>
+                                </div>
+                                <div class="col-3">
+                                    <img src="img/CreatorHubPage.jpg" class="d-block" alt="">
+                                    <a href="https://cjir.github.io/creatorhub/">
+                                    <h5>CreatorHub</h5>
+                                </div>
+                                <div class="col-3">
+                                    <img src="img/CreatorHubPage.jpg" class="d-block" alt="">
+                                    <a href="https://cjir.github.io/creatorhub/">
+                                    <h5>CreatorHub</h5>
+                                </div>
+                                <div class="col-3">
+                                    <img src="img/CreatorHubPage.jpg" class="d-block" alt="">
+                                    <a href="https://cjir.github.io/creatorhub/">
+                                    <h5>CreatorHub</h5>
+                                </div>
+                            </div>
 
-                </div>
-                <div class="col-2 text-center platformCover">
-                    <a href=""><img src="https://via.placeholder.com/150" alt=""></a>
-                </div>
-                <div class="col-2 text-center platformCover">
-                    <a href=""><img src="https://via.placeholder.com/150" alt=""></a>
-                </div>
-                <div class="col-2 text-center platformCover">
-                    <a href=""><img src="https://via.placeholder.com/150" alt=""></a>
-                </div>
-                <div class="col-2 text-center platformCover">
-                    <a href=""><img src="https://via.placeholder.com/150" alt=""></a>
-                </div>
-                <div class="col-2">
 
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Contact Container -->
     <div class="lightBackground">
         <div id="contact">
-            <div class="row">
+            <div class="row rowPadding">
                 <div class="col-6">
-                    <h2>Feel Free to Contact Me</h2>
-                    <!-- Contact Modal Button -->
-                    <button type="button" class="btn btn-outline" data-toggle="modal" data-target="#exampleModal">
-                        Contact
-                    </button>
-
-                    <!-- Contact Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Send me an message</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <form action="">
-                                        <div class="form">
-                                            <label for="message-text" class="col-form-label">Message:</label>
-                                            <textarea class="form-control" id="message-text"></textarea>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn-sm" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn-sm">Send</button>
-                                </div>
+                    <div class="container ">
+                        <form action="" class="d-table">
+                            <div class="form-group">
+                                <label for="usr">Message Me Here</label>
+                                <input type="textarea" class="form-control" style="min-height: 150px;" id="usr">
                             </div>
+                        </form>
+                        <div>
+                            <button type="button" class="btn">Send!</button>
                         </div>
                     </div>
+
                 </div>
                 <div class="col-6">
+                    <h2>Feel Free to Contact Me</h2>
                     <h5>You can also find me on!</h5>
                 </div>
-                <p>powered by Bootstrap 4 and github.pages</p>
             </div>
+            <p class="text-center mt-3">powered by Bootstrap 4 and github.pages</p>
         </div>
     </div>
 
