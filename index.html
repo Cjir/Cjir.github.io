@@ -29,26 +29,26 @@
 
 </head>
 
-<body data-spy="scroll" data-target="navbarScroll" data-offset="0">
+<body data-spy="scroll" data-target="mySidebar" data-offset="0">
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
 
         <!-- Collapsed Side Navigation Bar -->
     </div>
     <div id="sideBtn">
-        <button class="openbtn" onclick="openNav()"><i class="fa fa-angle-right"></i></button>
+        <button class="openbtn" onclick="openNav()"><i class="fa fa-bars"></i></button>
     </div>
     <!-- Body Content Container -->
     <div class="container-fluid">
-        <div class="row aboutme">
+        <div id="about" class="row aboutme">
             <div class="col">
                 <h1 id="headline" class="text-center">Christopher John Roman</h1>
                 <h2 id="title" class="text-center">Front End</h2>
@@ -61,7 +61,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid nightwrapper">
+    <div  id="skill" class="container-fluid nightwrapper">
 
         <div id="skillsheader" class="row">
             <div class="col">
@@ -127,7 +127,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div  id="portfolio" class="container-fluid">
         <div id="portfolioheader" class="row">
             <div class="col">
                 <h2 class="text-center">Portfolio</h2>
@@ -137,28 +137,26 @@
             <div class="col-3">
                 <div class="card">
                     <img class="card-img-top" src="img/DashboardProject.jpg" alt="Card image cap">
+                    
                     <div class="card-body">
-                        <h2 class="card-title">Creator Hub Dashboard</h2>
-                        <p class="card-text">Some quick example text to build on the card title and make up
-                            the bulk of
-                            the card's content.</p>
+                        <h2 class="card-title">CreatorHub</h2>
+                        <p class="card-text">Dashboard creation, with cards, and assests design with a uniform brand identity.<br>
+                        Tools Used: HTML, CSS, Bootstrap</p>
                     </div>
                     <div class="card-footer">
-                        <a href="https://cjir.github.io/DashboardProject/" class="btn"><i class="fa fa-github"></i></a>
+                        <a target="_blank" href="https://cjir.github.io/DashboardProject/" class="btn"><i class="fa fa-github"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img class="card-img-top" src="https://via.placeholder.com/150x85/" alt="Card image cap">
+                    <img class="card-img-top" src="img/traversehill.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Login and Authentication React App</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up
-                            the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">Traversehill</h5>
+                        <p class="card-text">Login and Authentication React App, for a hiking and trails experience company.<br>Tools Used:React, Apollo</p>
                     </div>
                     <div class="card-footer">
-                        <a href="https://cjir.github.io/DashboardProject/" class="btn"><i class="fa fa-github"></i></a>
+                        <a target="_blank" href="https://github.com/Cjir/TraverseHillLoginRegister" class="btn"><i class="fa fa-github"></i></a>
                     </div>
                 </div>
             </div>
@@ -192,7 +190,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid nightwrapper">
+    <div id="contact" class="container-fluid nightwrapper">
         <div id="contactheader" class="row">
             <div class="col">
                 <h2 class="text-center">Contact</h2>
